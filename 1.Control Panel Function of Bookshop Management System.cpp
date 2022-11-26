@@ -1,17 +1,14 @@
 // C++ program to illustrate Bookshop Management System
 #include <fstream>
 #include <iostream>
+#include<conio.h>
 #include <stdio.h>
+#include <string>
 #include <stdlib.h>
 using namespace std;
 
+void control_panel();
 
-
-	void control_panel();
-
-
-
-// Function to display the menu
 void control_panel()
 {
 	system("cls");
@@ -27,7 +24,8 @@ void control_panel()
 int main()
 {
 	// Function Call
-	control_panel();
+
 
 	return 0;
 }
+
