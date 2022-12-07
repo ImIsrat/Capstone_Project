@@ -22,6 +22,7 @@ public:
 void bookshope::control_panel()
 {
 	system("cls");
+	cout << "\n\t\t\t**BOOKSHOP MANAGEMENT SYSTEM**";
 	cout << "\n\n\t\t\t\tCONTROL PANEL";
 	cout << "\n\n1. ADD BOOK";
 	cout << "\n2. DISPLAY BOOKS";
